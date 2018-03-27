@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x,y,sum=0;
+    cout<<"enter two numbers "<<endl;
+    cin>>x>>y;
+    for(int i=0;i<y;i++){
+    sum+=x;
+    }
+    cout<<sum;
+
+    return 0;
+}

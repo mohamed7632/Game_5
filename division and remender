@@ -1,0 +1,32 @@
+#include <iostream>
+#include<iomanip>
+#include<cstring>
+
+using namespace std;
+
+int main()
+{
+    float number1,number2,sum=0;
+    int counter1=0,counter2=0;
+    cout<<"enter two numbers \n";
+    cin>>number1>>number2;
+    while(sum<number1){
+        sum+=number2;
+        counter1++;
+        if(sum==number1){
+            break;
+        }
+        else if(sum>number1){
+                 counter1--;
+            counter2=sum-number1;
+
+        }
+    }
+    cout<<"result = "<<counter1<<endl;
+    cout<<"reminder = "<<counter2<<endl;
+
+
+
+
+
+}
